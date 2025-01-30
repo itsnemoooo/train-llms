@@ -32,7 +32,3 @@ def test_load_and_batch():
 if __name__ == "__main__":
     test_load_and_batch()
 
-""""
-cd ./tests
-python test_data_loader.py
-"""
