@@ -12,9 +12,9 @@ from data import load_tokens, DataLoaderLite
 from utils import get_most_likely_row
 
 """
-# basic sparse transformer implementation with local pattern of 32 tokens.
-# replaces the following classes in the baseline model: CausalSelfAttention, MLP, Block, GPTConfig, GPT
-# might have to make arrangements for precision
+# basic sparse transformer implementation with a local pattern of 32 tokens.
+# replaces the following classes in the baseline model: CausalSelfAttention, MLP, Block, GPTConfig, GPT.
+# might have to make arrangements for precision.
 # downside: NO FLASH ATTENTION, open AI implementation may have it. 
 # https://github.com/kyegomez/SparseAttention
 """
